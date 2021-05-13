@@ -28,6 +28,7 @@ mkdir states_M
 cd states_M
 git init
 git clone https://github.com/GerardoBZentenoM/test-of-all-the-states-of-mexico.git
+cd test-of-all-the-states-of-mexico
 ```
 
 _Run:_
