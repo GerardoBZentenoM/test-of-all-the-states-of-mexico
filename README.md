@@ -24,8 +24,8 @@ _A series of step-by-step examples that tell you what to run to get a developmen
 _Clone the repository._
 
 ```
-mkdir DoS_Test
-cd Dos_Test
+mkdir states_M
+cd states_M
 git init
 git clone https://github.com/GerardoBZentenoM/test-of-all-the-states-of-mexico.git
 ```
