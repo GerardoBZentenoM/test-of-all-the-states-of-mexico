@@ -41,5 +41,8 @@ while len(guessed_states) < 32:
         t.goto(int(state_data.x), int(state_data.y))
         t.write(answer_state)
         # t.write(state_data.state.item())
-screen.title("Felicidades lo has conseguido!")
+if answer_state != "Exit":
+    screen.title("Felicidades lo has conseguido!")
+else:
+    screen.title("Game Over")
 turtle.mainloop()
